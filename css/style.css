@@ -1,0 +1,209 @@
+@font-face {
+    font-family: poppins;
+    src: url(/font/Poppins-Regular.ttf);
+  }
+  :root {
+    --main-color: #11245A;
+    --sub-color: #E93B81;
+  }
+  *{
+    padding: 0;
+    margin: 0;
+    font-family: poppins;
+    box-sizing: border-box;
+    
+
+}
+
+a{
+    text-decoration: none;
+    color: inherit;
+}
+html{
+    scroll-behavior: smooth;
+    font-size: 100%;
+    height: 100%;
+
+}
+body{
+    width: 100%;
+}
+
+#main-section{
+    background-image: url(/img/portrait-woman.jpg);
+    background-size: 100%;
+    width: 100%;
+    height: 100vh;
+    background-repeat: no-repeat;
+    
+}
+
+nav{
+display: grid;
+grid-template-columns: 1fr 1fr;
+}
+
+nav img{
+    max-width: 50%;
+}
+nav>div{
+    padding-top: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.nav-list{
+    text-decoration: none;
+    list-style: none;
+    float: right;
+}
+
+.nav-list>li{
+    float: left;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.nav-list>li>a{
+    text-decoration: none;
+    color: white;
+    font-size: 1.2rem;
+}
+
+#main-section>div{
+    padding-top: 7%;
+    padding-left: 10%;
+    padding-right: 10%;
+    text-align: center;
+    color: white;
+}
+
+#main-section h1{
+    font-size: 3rem;
+}
+#main-section>div>p{
+    padding-left: 20%;
+    padding-right: 20%;
+    font-size: 1.2rem;
+}
+
+.main-btn{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.pink-btn{
+    background-color: var(--sub-color);
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.wtsp-icon{
+    width: 100px;
+}
+.detail-section{
+color: var(--main-color);
+text-align: center;
+}
+.detail-section hr{
+    width: 200px;
+    margin: auto;
+}
+.detail-section>h1{
+    font-size: 3.2rem;
+    font-weight: bold;
+}
+
+#about-us>p{
+    padding-left: 15%;
+    padding-right: 15%;
+    line-height: 2rem;
+    font-size: 1.3rem;
+}
+
+#courses{
+    padding-left: 10%;
+    padding-right: 10%;
+    width: 100%;
+    overflow: hidden;
+}
+#courses img{
+    max-width: 50px;
+}
+
+.grid-2-img-line{
+    display: grid;
+    grid-template-columns: auto 1fr;
+    
+}
+
+
+.centered-line{
+    display: flex;
+    align-items: center;
+    padding-left: 20px;
+    
+}
+
+.grid-2-vertical{
+    display: grid;
+    grid-template-columns: 1fr;
+    width: 300px;
+    margin: auto;
+    text-align: left;
+}
+
+#features-col{
+    grid-gap:40px;
+    padding-left: 12%;
+    padding-right: 12%;
+    text-align: left;
+    font-size: 1.1rem;
+    overflow: hidden;
+}
+#features-col>div{
+background-color: var(--sub-color);
+padding-left: 2px;
+height: 120px;
+
+}
+#features-col>div>div{
+    background-color: #fff;
+    padding-left: 20px;
+    height: 100%;
+    padding-right: 80px;
+    display: flex;
+    align-items: center;
+    margin-left: 2px;
+}
+
+footer{
+    background-color: var(--main-color);
+    width: 100%;
+    /*height: 400px;*/
+    font-size: 1.5rem;
+    color: white;
+}
+
+.col-3-grid-centered{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+footer>.col-3-grid-centered>div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.cpr-line{
+    text-align: center;
+    font-size: 1rem;
+    margin: 20px auto;
+    height: 40px;
+}
