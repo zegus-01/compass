@@ -1,0 +1,16 @@
+.main-content>p{
+    padding-left: 25%;
+    padding-right: 25%;
+    font-size: 1.3rem;
+}
+
+#wa-icon>a{
+    width: 15%;
+    
+}
+
+.grid-2-tab{
+display: grid;
+grid-template-columns: 1fr 1fr;
+}
+

@@ -1,0 +1,51 @@
+.main-content>p{
+    padding-left: 10%;
+    padding-right: 10%;
+    font-size: 1rem;
+}
+
+.main-content h1{
+    font-size: 2.5rem;
+}
+
+
+.mobile-none{
+    display: none;
+
+}
+
+.desk-none{
+display: block;
+}
+
+#wa-icon>a{
+    width: 20%;
+    
+}
+
+#about-section>div{
+
+    padding-left: 7%;
+    padding-right:7%;
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+
+
+.section-with-header h1{
+    font-size: 2.5rem;
+    }
+    
+    #about-section p{
+        font-size: 1rem;
+    }
+
+.grid-1-mobile{
+    display: grid;
+    grid-template-columns: 1fr;
+}
+
+.footer-link{
+    text-align: center;
+    margin-left: -15%;
+}
