@@ -14,6 +14,14 @@
 
 }
 
+nav>div{
+ margin: auto;
+ height: 80px;
+display: flex;
+justify-content: center;
+}
+
+
 .desk-none{
 display: block;
 }
@@ -38,6 +46,7 @@ display: block;
     
     #about-section p{
         font-size: 1rem;
+        text-align: justify;
     }
 
 .grid-1-mobile{
@@ -45,7 +54,7 @@ display: block;
     grid-template-columns: 1fr;
 }
 
-.footer-link{
-    text-align: center;
-    margin-left: -15%;
+
+.mobile-no-flex{
+    display: block!important;
 }

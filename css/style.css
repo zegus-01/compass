@@ -178,6 +178,7 @@ footer{
     background-color: var(--main-color);
     color: white;
     padding-left: 10%;
+    padding-right: 10%;
     font-size: 1.23rem;
     padding-top: 50px;
     padding-bottom: 50px;
@@ -186,15 +187,6 @@ footer{
 
 
 
-.footer-2-grid{
-    display: grid;
-    grid-template-columns: 10% 90%;
-}
-
-.left-pad{
-padding-left: 20px;
-}
-
-.footer-link{
-    margin: auto;
+ul{
+    list-style-type: none;
 }
