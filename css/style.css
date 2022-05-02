@@ -145,6 +145,10 @@ font-size: 3rem;
     
 }
 
+.img-side-header img{
+    fill: #E93B81;
+}
+
 .side-header-h3{
     padding-left: 30px;
 }
